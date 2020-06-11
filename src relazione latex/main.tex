@@ -8,7 +8,7 @@
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
-    linkcolor=black,        % color of internal links           %% Andrea
+    linkcolor=blue,        % color of internal links           %% Andrea
     citecolor=black,        % color of links to bibliography    %% Andrea
     filecolor=blue,         % color of file links               %% Andrea
     urlcolor=blue,          % color of external links           %% Andrea
@@ -46,7 +46,9 @@
     Riccardo La Marca, 1795030\\[0.2 cm]
 \end{titlepage}
 
-\tableofcontents
+{\hypersetup{linkcolor=black}
+    \tableofcontents
+}
 \pagebreak
 
 \input{documents/introduzione.tex}
